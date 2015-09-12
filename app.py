@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from flask import (Flask, Blueprint, request, render_template, flash, url_for,
                     redirect, session)
 from forms.forms import *
