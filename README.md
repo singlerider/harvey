@@ -12,7 +12,7 @@ For example, in a video game, if the player(s) feel like they are stuck in a spe
 ### Why does it matter? 
 
 With today's highly competitive market of polished products, testing for things like this become increasingly important, which is a good thing, because it pushes the entire market to a higher standard of quality.
-Getting valid participants can be quite a chore, especially for in-person teating.
+Getting valid participants can be quite a chore, especially for in-person testing.
 Potential participants can be hard to find, which is why I'm here to help.
 
 ### Ok. So how can you help?
