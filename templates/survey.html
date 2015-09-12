@@ -1,0 +1,131 @@
+{% block content %}
+<div class="container-narrow">
+	<h1>Survey</h1>
+	<br/>
+	<form id="surveyForm" class="form form-survey" method="POST" action="" role="form">
+		{{ form.hidden_tag() }}
+		<div class="form-group">
+			{{form.first_name.label}}
+			{{form.first_name(placeholder="First Name", class_="form-control")}}
+		</div>
+		<div class="form-group">
+			{{form.last_name.label}}
+			{{form.last_name(placeholder="Last Name", class_="form-control")}}
+		</div>
+		<div class="form-group">
+			{{form.phone_number.label}}
+			{{form.phone_number(placeholder="Phone Number", class_="form-control")}}
+		</div>
+		<div class=form-group">
+			{{form.phone_carrier.label}}
+			{{form.phone_carrier(class_="form-control")}}
+		</div>
+		<div class="form-group">
+			{{form.email.label}}
+			{{form.email(placeholder="Email", class_="form-control")}}
+		</div>
+		<div class="form-group">
+			{{form.age.label}}
+			{{form.age(placeholder="00", class_="form-control")}}
+		</div>
+		<div class="form-group">
+			{{form.gender.label}}
+			{% for subfield in form.gender %}
+			<div>
+				{{ subfield }}
+				{{ subfield.label }}
+			</div>
+			{% endfor %}
+		</div>
+		<div class="form-group">
+			{{form.platforms.label}}
+			{% for subfield in form.platforms %}
+			<div>
+				{{ subfield }}
+				{{ subfield.label }}
+			</div>
+			{% endfor %}
+		</div>
+		<div class="form-group">
+			{{form.genres.label}}
+			{% for subfield in form.genres %}
+			<div>
+				{{ subfield }}
+				{{ subfield.label }}
+			</div>
+			{% endfor %}
+		</div>
+		<div class="form-group">
+			{{form.frequency.label}}
+			{% for subfield in form.frequency %}
+			<div>
+				{{ subfield }}
+				{{ subfield.label }}
+			</div>
+			{% endfor %}
+		</div>
+		<div class="form-group">
+			{{form.hours.label}}
+			{% for subfield in form.hours %}
+			<div>
+				{{ subfield }}
+				{{ subfield.label }}
+			</div>
+			{% endfor %}
+		</div>
+		<div class="form-group">
+			{{form.spending.label}}
+			{% for subfield in form.spending %}
+			<div>
+				{{ subfield }}
+				{{ subfield.label }}
+			</div>
+			{% endfor %}
+		</div>
+		<div class="form-group">
+			{{form.titles_played.label}}
+			{% for subfield in form.titles_played %}
+			<div>
+				{{ subfield }}
+				{{ subfield.label }}
+			</div>
+			{% endfor %}
+		</div>
+		<div class="form-group">
+			{{form.household.label}}
+			{% for subfield in form.household %}
+			<div>
+				{{ subfield }}
+				{{ subfield.label }}
+			</div>
+			{% endfor %}
+		</div>
+		{{form.datetime_local.label}}
+		<div class="form-group">
+			{{form.datetime_local.label}}
+			{{form.datetime_local(class_="form-control") | safe}}
+		</div><!--datetimeLocal-->
+		<div class="form-group">
+			{{form.notifications.label}}
+			{% for subfield in form.notifications %}
+			<div>
+				{{ subfield }}
+				{{ subfield.label }}
+			</div>
+			{% endfor %}
+		</div>
+		<div class="form-group">
+			{{form.verify.label}}
+			{% for subfield in form.verify %}
+			<div>
+				{{ subfield }}
+				{{ subfield.label }}
+			</div>
+			{% endfor %}
+		</div>
+		<p>
+			<input class="btn btn-default btn-submit" type="submit" value="Submit">
+		</p>
+	</form>
+</div>
+{% endblock %}
