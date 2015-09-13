@@ -17,7 +17,7 @@ Potential participants can be hard to find, which is why I'm here to help.
 
 ### Ok. So how can you help?
 
-Well, there are teams of people the use information about their target demographic to get specific participants.
+Well, there are teams of people that use information about their target demographic to get specific participants.
 Although it is a good idea to get a variety of people to test, the core findings will matter most for a particular group of users.
 Anyway, I allow researchers to go ahead and choose what kind of info they want people to select from on a survey.
 They can target a huge pool of potential participants, gathering data on the responses of the answers from the surveys.
