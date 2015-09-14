@@ -3,6 +3,7 @@
 from flask import (Flask, Blueprint, request, render_template, flash, url_for,
                    redirect, session)
 from forms.forms import *
+from database.queries import *
 app = Flask(__name__)
 
 app.secret_key = 'password'
