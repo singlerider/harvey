@@ -24,3 +24,5 @@ They can target a huge pool of potential participants, gathering data on the res
 Using these data points, I figure out who is the most eligible to come in and test.
 If a researcher wants someone that has never played an RPG game and plays 14 hours of FPS games a week, I will give them a list of people that fit that criteria.
 One day, I'll be able make participants appointments and get confirmation from them from texts, calls, or emails.
+
+## Installation
