@@ -26,3 +26,6 @@ If a researcher wants someone that has never played an RPG game and plays 14 hou
 One day, I'll be able make participants appointments and get confirmation from them from texts, calls, or emails.
 
 ## Installation
+
+A UNIX operating system is recommended. This will theoretically work on Windows, but I wouldn't recommend it as it will not be tested for it.
+
